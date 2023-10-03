@@ -1,0 +1,15 @@
+Relógio do Grêmio - JavaScript
+Este código JavaScript cria um relógio digital simples que exibe as horas, minutos e segundos em elementos HTML com os IDs 'horas', 'minutos' e 'segundos'. O relógio é atualizado a cada segundo para refletir o horário atual do sistema.
+
+Variáveis
+horas: Uma variável que referencia um elemento HTML com o ID 'horas'.
+minutos: Uma variável que referencia um elemento HTML com o ID 'minutos'.
+segundos: Uma variável que referencia um elemento HTML com o ID 'segundos'.
+relogio: Uma variável que armazena o resultado da função setInterval. Isso permite que você interrompa a atualização do relógio posteriormente, se necessário.
+Função time()
+Esta função é passada como argumento para setInterval e é executada a cada segundo. Ela realiza as seguintes ações:
+
+Obtém a data e hora atual usando new Date().
+Extrai as horas, minutos e segundos da data atual.
+Verifica se as horas, minutos e segundos são menores que 10 e, se forem, adiciona um zero à esquerda para formatar os números.
+Atualiza o conteúdo dos elementos HTML horas, minutos e segundos com os valores formatados.

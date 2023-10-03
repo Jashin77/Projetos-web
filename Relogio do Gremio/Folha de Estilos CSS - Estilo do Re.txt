@@ -1,0 +1,18 @@
+Folha de Estilos CSS - Estilo do Relógio do Grêmio
+Este é o código CSS que estiliza a página HTML do Relógio do Grêmio. Ele define a aparência e o layout dos elementos na página.
+
+Estilos Gerais
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');: Importa a fonte 'Open Sans' do Google Fonts para ser usada em todo o documento.
+
+*: Define um conjunto de estilos para todos os elementos da página, removendo margens e preenchimentos padrão e definindo a fonte principal como 'Open Sans'.
+
+Estilos para o Corpo da Página
+body: Estiliza o corpo da página, definindo sua altura como 100% da altura da viewport (100vh) e aplicando um plano de fundo gradiente com três cores (#003399, #FFFFFF, #000000). Isso cria um efeito de gradiente azul escuro a branco a preto. Também centraliza o conteúdo vertical e horizontalmente usando display: flex, align-items e justify-content.
+Estilos para o Relógio
+.relogio: Estiliza o contêiner principal do relógio. Ele exibe o relógio como uma caixa com altura e largura fixas, um fundo transparente e sombra.
+
+.relogio div: Estiliza as divisões internas do relógio (horas, minutos e segundos). Define a altura, largura e cor de fundo, adiciona uma sombra e borda arredondada para cada divisão.
+
+.relogio span: Define estilos para os números das horas, minutos e segundos dentro das divisões. Aumenta o tamanho da fonte e a espessura da fonte para torná-los mais proeminentes.
+
+.relogio span.tempo: Estiliza o texto "Horas", "Minutos" e "Segundos" abaixo dos números. Define um tamanho de fonte menor.
