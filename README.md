@@ -1,2 +1,2 @@
-# Projetos-Js
- repositorio de projetos criados com JavaScript
+# Projetos-Web
+ repositorio de projetos WEB e APi
