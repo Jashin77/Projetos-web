@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuizCarros")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47f19fa2561f6282ca4a857af7e768d804450616")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb0c64071f81f174c29720eb48f6df2b83a8f1d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuizCarros")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuizCarros")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

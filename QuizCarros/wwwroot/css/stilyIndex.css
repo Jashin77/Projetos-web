@@ -1,0 +1,38 @@
+﻿body {
+    background-color: #e3f2fd; /* Azul clarinho */
+}
+
+.quiz-container {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+    max-width: 600px; /* Define uma largura máxima para o contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona um espaçamento interno */
+}
+
+    .quiz-container img {
+        max-width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
+        max-height: 300px; /* Limita a altura máxima da imagem */
+        margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+        border: 3px solid #fff; /* Borda branca ao redor da imagem */
+        border-radius: 8px; /* Bordas arredondadas */
+    }
+
+    .quiz-container h2 {
+        font-size: 24px; /* Tamanho da fonte do título */
+        margin-bottom: 20px; /* Espaçamento abaixo do título */
+    }
+
+    .quiz-container button {
+        display: block; /* Faz os botões ficarem em linha vertical */
+        margin: 10px auto; /* Espaçamento entre os botões */
+        padding: 10px 20px; /* Espaçamento interno nos botões */
+        background-color: #258cfb; /* Cor de fundo dos botões */
+        color: white; /* Cor do texto do botão */
+        border: none; /* Remove borda padrão */
+        border-radius: 5px; /* Bordas arredondadas nos botões */
+        cursor: pointer; /* Mostra o cursor como uma mãozinha */
+    }
+
+        .quiz-container button:hover {
+            background-color: #006bb3; /* Cor de fundo quando o botão é focado */
+        }

@@ -3,50 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Quiz Teste</title>
+        <link rel="stylesheet" href="~/css/stilyIndex.css" />
+        <title>Quiz Carros</title>
     </head>
-    <
     <body>
         <h1>Quiz sobre carros</h1>
 
         @if (ViewBag.Acertos != null && ViewBag.TotalPerguntas != null)
-        {
-            <!-- Se o quiz foi concluído, exibe o resultado -->
-            <h2>Fim do Quiz</h2>
-            <p><strong>Você acertou @ViewBag.Acertos de @ViewBag.TotalPerguntas perguntas!</strong></p>
+    {
+        <div class="quiz-container">
+        <h2>Fim do Quiz</h2>
+        <p><strong>Você acertou @ViewBag.Acertos de @ViewBag.TotalPerguntas perguntas!</strong></p>
 
-            @if (ViewBag.Acertos == ViewBag.TotalPerguntas)
-            {
-                <p><strong>Parabéns! Você acertou todas as perguntas!</strong></p>
-            }
-            else if (ViewBag.Acertos >= ViewBag.TotalPerguntas / 2)
-            {
-                <p><strong>Bom trabalho! Você acertou mais da metade das perguntas!</strong></p>
-            }
-            else
-            {
-                <p><strong>Você pode melhorar! Tente novamente!</strong></p>
-            }
-            <!-- Botão para refazer o quiz -->
-            <form method="post" action="/Home/RefazerQuiz">
-                <button type="submit">Refazer o Quiz</button>
-            </form>
+        @if (ViewBag.Acertos == ViewBag.TotalPerguntas)
+        {
+            <p><strong>Parabéns! Você acertou todas as perguntas!</strong></p>
+        }
+        else if (ViewBag.Acertos >= ViewBag.TotalPerguntas / 2)
+        {
+            <p><strong>Bom trabalho! Você acertou mais da metade das perguntas!</strong></p>
         }
         else
         {
-         <!-- Se ainda houver perguntas, exibe a pergunta atual -->
+            <p><strong>Você pode melhorar! Tente novamente!</strong></p>
+        }
+        <form method="post" action="/Home/RefazerQuiz">
+            <button type="submit">Refazer o Quiz</button>
+        </form>
+        </div>
+    }
+    else
+    {
+        <div class="quiz-container">
+            <img src="@Url.Content(Model.ImagemUrl)" alt="Imagem da pergunta" style="max-width: 100%; height: auto;">
             <h2>@Model.Enunciado</h2>
 
             <form method="post" action="/Home/ProximaPergunta">
-                <input type="hidden" name="perguntaId" value="@Model.PerguntasId" /> <!-- ID da pergunta -->
-
-                <input type="radio" name="resposta" value="0"> A) @Model.Alternativa1 <br>
-                <input type="radio" name="resposta" value="1"> B) @Model.Alternativa2 <br>
-                <input type="radio" name="resposta" value="2"> C) @Model.Alternativa3 <br>
-                <input type="radio" name="resposta" value="3"> D) @Model.Alternativa4 <br>
-
-                <button type="submit">Próxima Pergunta</button>
+                <input type="hidden" name="perguntaId" value="@Model.PerguntasId" />
+            
+                <button type="submit" name="resposta" value="0" class="alternativa-btn">A) @Model.Alternativa1</button>
+                <button type="submit" name="resposta" value="1" class="alternativa-btn">B) @Model.Alternativa2</button>
+                <button type="submit" name="resposta" value="2" class="alternativa-btn">C) @Model.Alternativa3</button>
+                <button type="submit" name="resposta" value="3" class="alternativa-btn">D) @Model.Alternativa4</button>
             </form>
-        }
+        </div>
+    }
     </body>
     </html>

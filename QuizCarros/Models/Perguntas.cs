@@ -30,6 +30,8 @@ namespace QuizCarros.Models
         public string Alternativa4 { get; set; }
         [Required]
         [Range(0,3)]
-        public int RespostaCorreta { get; set; }  
+        public int RespostaCorreta { get; set; }
+        public string ImagemUrl { get; set; }
+        
     }
 }
