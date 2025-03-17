@@ -44,6 +44,8 @@
   
 6. Acesse a URL exibida no terminal (por padrão, http://localhost:5145).
 
-##📜 Licença
+---
+
+## 📜 Licença
 
 Este projeto está sob a licença MIT.
