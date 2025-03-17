@@ -29,10 +29,10 @@
    ```bash
    git clone https://github.com/Jashin77/Projetos-web.git
 2.Acesse o diretório do projeto:
-cd Projetos-web/QuizCarros
+   cd Projetos-web/QuizCarros
 
 3.instale as dependências no cmd:
-dotnet restore
+   dotnet restore
 
 4. Execute o projeto no cmd:
    dotnet run
@@ -43,6 +43,7 @@ dotnet restore
   Now listening on: https://localhost:7237
   
 6. Acesse a URL exibida no terminal (por padrão, http://localhost:5145).
-   
-📜 Licença
+
+##📜 Licença
+
 Este projeto está sob a licença MIT.
