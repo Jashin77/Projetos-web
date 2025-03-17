@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="~/css/stilyIndex.css" />
         <title>Quiz Carros</title>
     </head>
-    <body>
+    <body data-resposta-correta="@(Model != null ? Model.RespostaCorreta : -1)">
         <h1>Quiz sobre carros</h1>
 
         @if (ViewBag.Acertos != null && ViewBag.TotalPerguntas != null)
@@ -34,19 +34,26 @@
     }
     else
     {
-        <div class="quiz-container">
-            <img src="@Url.Content(Model.ImagemUrl)" alt="Imagem da pergunta" style="max-width: 100%; height: auto;">
-            <h2>@Model.Enunciado</h2>
+        @if (Model != null)
+        {
+            <div class="quiz-container">
+                <img src="@Url.Content(Model.ImagemUrl)" alt="Imagem da pergunta" style="max-width: 100%; height: auto;">
+                <h2>@Model.Enunciado</h2>
 
-            <form method="post" action="/Home/ProximaPergunta">
-                <input type="hidden" name="perguntaId" value="@Model.PerguntasId" />
-            
-                <button type="submit" name="resposta" value="0" class="alternativa-btn">A) @Model.Alternativa1</button>
-                <button type="submit" name="resposta" value="1" class="alternativa-btn">B) @Model.Alternativa2</button>
-                <button type="submit" name="resposta" value="2" class="alternativa-btn">C) @Model.Alternativa3</button>
-                <button type="submit" name="resposta" value="3" class="alternativa-btn">D) @Model.Alternativa4</button>
-            </form>
-        </div>
+                <form method="post" action="/Home/ProximaPergunta">
+                    <input type="hidden" name="perguntaId" value="@Model.PerguntasId" />
+
+                    <button type="button" class="alternativa-btn" data-resposta="0">A) @Model.Alternativa1</button>
+                    <button type="button" class="alternativa-btn" data-resposta="1">B) @Model.Alternativa2</button>
+                    <button type="button" class="alternativa-btn" data-resposta="2">C) @Model.Alternativa3</button>
+                    <button type="button" class="alternativa-btn" data-resposta="3">D) @Model.Alternativa4</button>
+
+                    <!-- Adiciona um input hidden para enviar a resposta -->
+                    <input type="hidden" name="resposta" id="resposta-input">
+                </form>
+            </div>
+        }
     }
+    <script src="~/js/site.js" defer></script>
     </body>
     </html>

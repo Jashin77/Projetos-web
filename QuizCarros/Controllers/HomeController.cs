@@ -23,10 +23,11 @@ namespace QuizCarros.Controllers
             {
                 return View("Error");
             }
-            if (TempData["Acertos"] == null)
+            if (TempData["Acertos"] == null || !(TempData["Acertos"] is int))
             {
                 TempData["Acertos"] = 0;
             }
+            TempData.Keep("Acertos");
             return View(pergunta);
         }
 
@@ -58,12 +59,14 @@ namespace QuizCarros.Controllers
             var totalPerguntas = _context.Perguntas.Count();
             ViewBag.Acertos = acertos;
             ViewBag.TotalPerguntas = totalPerguntas;
-            return View("Index");
+
+            return View("Index", model: null);
         }
 
         public IActionResult RefazerQuiz()
         {
             TempData["Acertos"] = 0;
+            TempData.Keep("Acertos");
             return RedirectToAction("Index");
         }
 
