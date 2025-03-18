@@ -50,7 +50,21 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 140px 20px 40px; 
+    padding-top: 80px; 
+}
+
+.container{
+    width:100%;
+    padding: 40px 20px;
+}
+
+.about-section{
+    background-color: #ffffff;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .profile-pic {
@@ -68,6 +82,29 @@ h1, h2 {
 p {
     margin-bottom: 25px; 
 }
+.container.about-section {
+    width: 100%; 
+    background-color: #f0f0f0; 
+    padding: 50px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about {
+    width: 100%; 
+    padding: 50px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#about p {
+    max-width: 800px; 
+    margin: auto;
+}
 
 .project-list {
     display: flex;
@@ -76,7 +113,6 @@ p {
     gap: 20px;
     max-width: 1000px;
     margin-top: 30px;
-    align-items: stretch;
 }
 
 .project {
@@ -85,17 +121,18 @@ p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 280px;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-height: 250px;
     height: 100%;
+
 }
 
 .project p {
     text-align: justify; 
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5; 
     margin-top: 10px;
     min-height: 80px;
@@ -108,10 +145,16 @@ p {
     margin-bottom: 10px;
 }
 
+.project-description { 
+    display: flex;
+    align-items: flex-start; 
+    text-align: left; 
+}
+
 button {
     background: #007BFF;
     color: white;
-    padding: 8px 12px;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
