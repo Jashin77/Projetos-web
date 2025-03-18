@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -59,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\quizcarros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:quizcarros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -73,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\migrations\\20250314164418_migracaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:migrations\\20250314164418_migracaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\projetos-js\\quizcarros\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5EB3146D-D93E-4277-AE03-351C5311DF32}|QuizCarros.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,33 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-14T00:54:09.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T00:50:03.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20250315153244_AdicionarImagemPerguntas.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Migrations\\20250315153244_AdicionarImagemPerguntas.cs",
               "RelativeDocumentMoniker": "Migrations\\20250315153244_AdicionarImagemPerguntas.cs",
@@ -132,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "20250314185555_PopularPerguntas.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Migrations\\20250314185555_PopularPerguntas.cs",
               "RelativeDocumentMoniker": "Migrations\\20250314185555_PopularPerguntas.cs",
@@ -144,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -156,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "stilyIndex.css",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\wwwroot\\css\\stilyIndex.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\stilyIndex.css",
@@ -164,12 +138,11 @@
               "RelativeToolTip": "wwwroot\\css\\stilyIndex.css",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-15T16:52:11.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T16:52:11.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "site.js",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -182,7 +155,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T00:51:31.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T00:51:58.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T00:50:03.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T00:54:09.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20250315164345_attImgPerguntas.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Migrations\\20250315164345_attImgPerguntas.cs",
               "RelativeDocumentMoniker": "Migrations\\20250315164345_attImgPerguntas.cs",
@@ -194,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -206,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -218,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -230,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "site.css",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -242,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -254,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Perguntas.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Models\\Perguntas.cs",
               "RelativeDocumentMoniker": "Models\\Perguntas.cs",
@@ -266,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "QuizCarros.csproj",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\QuizCarros.csproj",
               "RelativeDocumentMoniker": "QuizCarros.csproj",
@@ -278,19 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T00:51:31.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -302,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20250314164418_MigracaoInicial.cs",
               "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Migrations\\20250314164418_MigracaoInicial.cs",
               "RelativeDocumentMoniker": "Migrations\\20250314164418_MigracaoInicial.cs",
@@ -311,18 +322,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T16:44:18.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\Projetos-Js\\QuizCarros\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T00:51:58.548Z"
             }
           ]
         }
