@@ -1,0 +1,63 @@
+html {
+    font-family : Helvetica;
+    background-color : #90b8cf
+}
+.conteiner {
+    max-width: 1100px;
+    background-color:white;
+    position : relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bold{
+    font-weight : bold;
+    color : black;
+}
+span{
+    color : #000bac;
+    font-style : italic;
+}
+.header{
+    text-align: center;
+}
+.main-title{
+    font-size: 40px;
+    font-style:italic;
+}
+.main-paragraph{
+    font-style:italic;
+}
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+.biografi-container{
+    padding : 25px 0;
+    margin : 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.ficha-tecnica{
+    padding: 25px 0;
+    margin : 25px 0;
+    border-top: 1px dashed #ddd;
+    border-Bottom: 1px dashed #ddd;
+}
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+.img2{
+    width : 735px;
+    height: 600px;
+    object-fit:cover;
+    object-position : center bottom;
+
+}
+.img1{
+    width : 735px;
+    height: 650px;
+    object-fit:cover;
+    object-position : center 70%;
+
+}
