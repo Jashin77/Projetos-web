@@ -30,10 +30,10 @@ Qualquer navegador web moderno é capaz de renderizar a página corretamente.
 1. **Clone o repositório para o seu ambiente local:**
    ```bash
    git clone https://github.com/jashin77/projetos-web
-2. **Navegue até o diretório do projeto:
+2. **Navegue até o diretório do projeto:**
     ```bash
      cd projetos-web/FichaTecnicaHyundaiAzera
-3. **Abra o arquivo index.html em seu navegador preferido.
+3. **Abra o arquivo index.html em seu navegador preferido.**
 
 🛠 Tecnologias Utilizadas
 ⚡ HTML5
