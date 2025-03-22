@@ -1,65 +1,57 @@
-Ficha Técnica do Hyundai Azera
-Status do Projeto: ✔️ Concluído
+# Ficha Técnica do Hyundai Azera
 
-Descrição do Projeto
-Este projeto apresenta uma ficha técnica detalhada do Hyundai Azera 3.0 V6 2017, fornecendo informações abrangentes sobre suas especificações, desempenho, dimensões e outros detalhes relevantes.
+> **Status do Projeto:** ✔️ Concluído
 
-Funcionalidades
-✔️ Exibição das especificações do motor
+## 📌 Descrição do Projeto
 
-✔️ Informações sobre consumo de combustível e autonomia
+Este projeto apresenta uma ficha técnica detalhada do **Hyundai Azera 3.0 V6 2017**, fornecendo informações abrangentes sobre suas especificações, desempenho, dimensões e outros detalhes relevantes.
 
-✔️ Detalhes das dimensões e peso do veículo
+## 🚗 Funcionalidades
 
-✔️ Especificações da direção e câmbio
+- ✅ Exibição das especificações do motor  
+- ✅ Informações sobre consumo de combustível e autonomia  
+- ✅ Detalhes das dimensões e peso do veículo  
+- ✅ Especificações da direção e câmbio  
+- ✅ Informações sobre suspensão e freios  
+- ✅ Detalhes dos pneus e rodas  
 
-✔️ Informações sobre suspensão e freios
+## 🎨 Layout ou Deploy da Aplicação
 
-✔️ Detalhes dos pneus e rodas
+O projeto consiste em uma página estática que exibe a ficha técnica do Hyundai Azera 3.0 V6 2017.  
+Para visualizar a aplicação, basta abrir o arquivo `index.html` em um navegador web.
 
-Layout ou Deploy da Aplicação
-O projeto consiste em uma página estática que exibe a ficha técnica do Hyundai Azera 3.0 V6 2017. Para visualizar a aplicação, basta abrir o arquivo index.html em um navegador web.​
-Escolha Seu Carro 0KM
+## ⚙️ Pré-requisitos
 
-Pré-requisitos
-Não há pré-requisitos específicos para visualizar este projeto. Qualquer navegador web moderno é capaz de renderizar a página corretamente.​
+Não há pré-requisitos específicos para visualizar este projeto.  
+Qualquer navegador web moderno é capaz de renderizar a página corretamente.
 
-Como Rodar a Aplicação
-Clone o repositório para o seu ambiente local:​
+## 🚀 Como Rodar a Aplicação
 
-bash
-Copiar
-Editar
-git clone https://github.com/jashin77/projetos-web
-Navegue até o diretório do projeto:​
-Portal Insights
-+1
-GitHub Docs
-+1
+1. **Clone o repositório para o seu ambiente local:**
+   ```bash
+   git clone https://github.com/jashin77/projetos-web
+2. **Navegue até o diretório do projeto:
+    ```bash
+     cd projetos-web/FichaTecnicaHyundaiAzera
+3. ##Abra o arquivo index.html em seu navegador preferido.
 
-bash
-Copiar
-Editar
-cd projetos-web/FichaTecnicaHyundaiAzera
-Abra o arquivo index.html em seu navegador preferido.​
-Gist
+🛠 Tecnologias Utilizadas
+⚡ HTML5
 
-Tecnologias Utilizadas
-HTML5​
-GitHub
+🎨 CSS3
 
-CSS3​
+👨‍💻 Desenvolvedor
+jashin77
 
-Desenvolvedor
-jashin77​
+📜 Licença
+Este projeto está licenciado sob a Licença MIT.
 
-Licença
-Este projeto está licenciado sob a Licença MIT.​
-Gist
-+3
-GitHub Docs
-+3
-Gist
-+3
+📌 As informações técnicas apresentadas neste projeto foram obtidas a partir de fontes confiáveis e têm como objetivo fornecer uma visão detalhada das especificações do Hyundai Azera 3.0 V6 2017.
+Fonte: (https://www.carrosnaweb.com.br/fichadetalhe.asp?codigo=7383)
 
-As informações técnicas apresentadas neste projeto foram obtidas a partir de fontes confiáveis e têm como objetivo fornecer uma visão detalhada das especificações do Hyundai Azera 3.0 V6 2017. 
+
+
+
+
+
+
