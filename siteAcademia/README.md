@@ -18,11 +18,15 @@ less
 Copiar
 Editar
 siteAcademia/
-├─ index.html         ← Página principal
-├─ css/               ← Estilos (ex: style.css)
-├─ js/                ← Scripts JS (ex: main.js)
-└─ assets/            ← Imagens e logos
-▶️ Como Rodar
+├── index.html          # Página principal do site
+├── css/
+│   └── style.css       # Estilos personalizados
+├── js/
+│   └── main.js         # Scripts JavaScript
+└── assets/
+    ├── logo.png        # Logo da academia
+    └── ...             # Outras imagens ou ícones
+
 Baixe ou clone o repositório:
 git clone https://github.com/Jashin77/Projetos-web.git
 
