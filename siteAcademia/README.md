@@ -1,37 +1,52 @@
+🏋️‍♂️ siteAcademia — Documentação
+📌 Sobre o Projeto
+Um site simples e informativo para uma academia fictícia. Ideal para apresentar planos, valores e permitir contato com clientes.
 
-📄 siteAcademia — Documentação
-Sumário
-Visão Geral
+✅ Funcionalidades
+Página inicial com visão, missão e valores
 
-Funcionalidades
+Seção de planos e preços (Básico, Premium)
 
-Estrutura do Projeto
+Formulário de contato funcional (exemplo)
 
-Como Executar Localmente
+Design limpo e fácil de navegar
 
-Personalização
+Botão de login (sem funcionalidade ainda)
 
-Licença
+📁 Estrutura de Arquivos
+less
+Copiar
+Editar
+siteAcademia/
+├─ index.html         ← Página principal
+├─ css/               ← Estilos (ex: style.css)
+├─ js/                ← Scripts JS (ex: main.js)
+└─ assets/            ← Imagens e logos
+▶️ Como Rodar
+Baixe ou clone o repositório:
+git clone https://github.com/Jashin77/Projetos-web.git
 
-Visão Geral
-siteAcademia (também chamado de “Maximize Fit”) é um site institucional simples para uma academia fictícia. Ele apresenta seções sobre os valores da empresa, planos e preços e permite envio de mensagens para contato.
+Vá até a pasta siteAcademia
 
-Funcionalidades
-Navegação simples: menu com links para Home, Preços, Contatos e Entrar.
+Abra o arquivo index.html em qualquer navegador
 
-Seções informativas:
+🛠️ Personalização
+Edite textos direto no index.html
 
-Visão, missão, valores: “segurança”, “performance”, “supporte 24h”.
+Mude estilos em css/style.css
 
-Planos de assinatura: Básico, Premium (1 e 6 meses), Premium anual.
+Troque imagens na pasta assets/
 
-Formulário de contato, permitindo que o usuário envie uma mensagem e receba retorno em até 4 horas.
+Conecte o formulário a um backend (ex: Formspree ou PHP)
 
-Design responsivo e minimalista (pressuposto: pode contar com CSS para layout).
+💡 Melhorias Sugeridas
+Deixar o site responsivo
 
-Rodapé com marcação de direitos autorais e host.
+Ativar botão "Entrar" com login real
 
-Licença
-Este projeto pode usar licença aberta como MIT ou similar — caso ainda não possua, adicione um arquivo LICENSE.
+Validar envio do formulário
 
-⭐ Resumo: o siteAcademia é um landing page simples para uma academia, com planos, valores e um formulário de contato
+Adicionar links nas seções do menu
+
+🪪 Licença
+Você pode usar, modificar e melhorar esse projeto livremente.
