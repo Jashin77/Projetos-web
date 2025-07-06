@@ -14,18 +14,16 @@ Design limpo e fácil de navegar
 Botão de login (sem funcionalidade ainda)
 
 📁 Estrutura de Arquivos
-less
-Copiar
-Editar
 siteAcademia/
 ├── index.html          # Página principal do site
-├── css/
-│   └── style.css       # Estilos personalizados
-├── js/
-│   └── main.js         # Scripts JavaScript
-└── assets/
-    ├── logo.png        # Logo da academia
-    └── ...             # Outras imagens ou ícones
+├── css/                # Arquivos de estilo
+│   └── style.css
+├── js/                 # Scripts JavaScript
+│   └── main.js
+├── img/                # Imagens do site
+│   └── logo.png
+└── README.md           # Documentação do projeto
+
 
 Baixe ou clone o repositório:
 git clone https://github.com/Jashin77/Projetos-web.git
