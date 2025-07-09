@@ -29,15 +29,12 @@ Elementos visuais semelhantes aos da versão web do Instagram
 🚀 Como Visualizar
 Clone o repositório:
 
-bash
-Copiar
-Editar
+
+
 git clone https://github.com/Jashin77/Projetos-web.git
 Acesse a pasta do projeto:
 
-bash
-Copiar
-Editar
+
 cd Projetos-web/paginaLoginInstagram
 Abra o arquivo index.html no seu navegador.
 
