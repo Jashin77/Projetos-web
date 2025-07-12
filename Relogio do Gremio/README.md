@@ -2,7 +2,9 @@
 
 Projeto simples de um **relógio digital personalizado com as cores do Grêmio**, desenvolvido utilizando **HTML**, **CSS** e **JavaScript**.
 
-![Relógio do Grêmio](https://raw.githubusercontent.com/Jashin77/Projetos-web/main/Relogio%20do%20Gremio/relogio_gremio_preview.png)
+## 📸Imagem
+<img width="1669" height="847" alt="image" src="https://github.com/user-attachments/assets/ee702fc1-6cf3-4890-8dd5-5fee631c6e63" />
+
 
 ## 📋 Descrição
 
