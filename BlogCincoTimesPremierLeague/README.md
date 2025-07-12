@@ -6,7 +6,10 @@ Este projeto é um site estático que apresenta um blog com cinco dos principais
 
 - 📄 `index.html`: página principal do blog  
 - 🎨 `estilo.css`: estilos aplicados ao layout  
-- 🖼️ `imagens/`: pasta com as imagens dos times  
+- 🖼️ `imagens/`: pasta com as imagens dos times
+
+## 📸 Imagem
+<img width="1874" height="917" alt="image" src="https://github.com/user-attachments/assets/b030a21b-951b-45bd-9bd6-c93e03b88258" />
 
 ## 🛠️ Tecnologias Usadas
 
