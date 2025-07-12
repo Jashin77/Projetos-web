@@ -4,7 +4,7 @@
 
 ## Demonstração do Projeto
 
-📽️ [Clique aqui para baixar e assistir o vídeo]([demo/video-demo.mp4](https://github.com/Jashin77/Projetos-web/tree/main/QuizCarros/demo))
+📽️ [Clique aqui para baixar e assistir o vídeo](https://github.com/Jashin77/Projetos-web/tree/main/QuizCarros/demo)
 
 
 ## 📌 Funcionalidades  
