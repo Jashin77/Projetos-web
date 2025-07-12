@@ -6,6 +6,12 @@
 
 Este projeto apresenta uma ficha técnica detalhada do **Hyundai Azera 3.0 V6 2017**, fornecendo informações abrangentes sobre suas especificações, desempenho, dimensões e outros detalhes relevantes.
 
+## 📸 imagens
+<img width="1415" height="896" alt="image" src="https://github.com/user-attachments/assets/44d5ca87-57c8-4875-923a-3bea7c1f7a3b" />
+<img width="1340" height="871" alt="image" src="https://github.com/user-attachments/assets/4364a7d2-4385-4c4a-8a14-844b9f46e50b" />
+
+
+
 ## 🚗 Funcionalidades
 
 - ✅ Exibição das especificações do motor  
