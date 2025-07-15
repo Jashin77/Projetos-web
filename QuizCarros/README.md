@@ -2,6 +2,11 @@
 
 **QuizCarros** é um aplicativo web desenvolvido com **ASP.NET** que testa seus conhecimentos sobre o mundo dos carros. O quiz apresenta perguntas de múltipla escolha e exibe a pontuação ao final.  
 
+## Demonstração do Projeto
+
+📽️ [Clique aqui para baixar e assistir o vídeo](https://github.com/Jashin77/Projetos-web/tree/main/QuizCarros/demo)
+
+
 ## 📌 Funcionalidades  
 
 - **Perguntas de múltipla escolha**: Cada questão tem quatro alternativas, com apenas uma correta.  
