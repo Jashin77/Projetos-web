@@ -51,10 +51,10 @@ Aplicar estilos com base em um tema (neste caso, do Grêmio)
 
 Centralizar elementos usando Flexbox
 
-##🎯 Objetivo
+## 🎯 Objetivo
 Este projeto tem caráter educativo e serve como um exercício de introdução ao desenvolvimento web front-end. Além disso, é uma forma divertida de praticar com um tema personalizado.
 
-##🏁 Resultado
+## 🏁 Resultado
 A página exibe a hora atualizada a cada segundo, com layout estilizado e responsivo, apresentando:
 
 Horas, minutos e segundos
