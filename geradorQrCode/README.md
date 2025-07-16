@@ -25,12 +25,13 @@ Um projeto simples para gerar QR Codes a partir de URLs ou textos inseridos pelo
 5. Para baixar a imagem, clique no botão "Baixar QR Code"
 
 ## 📒Estrutura do Projeto
+```
 geradorQrCode/
 ├── index.html # Página principal com a interface do usuário
 ├── script.js # Lógica para gerar e baixar o QR Code
 ├── style.css # Estilos da página
 └── README.md # Documentação do projeto
-
+```
 
 ## 🖌️Personalização
 
