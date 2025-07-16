@@ -36,14 +36,12 @@ Clique duas vezes no arquivo index.html
 Ou abra com o Live Server no VS Code
 
 ## 📂 Estrutura do Projeto
-pgsql
-Copiar
-Editar
+```
 Relogio do Gremio/
 ├── index.html       # Estrutura principal da página
 ├── style.css        # Estilo do relógio e tema do Grêmio
 └── script.js        # Código JS para atualizar o relógio em tempo real
-
+```
 ## 🧠 O que você aprende com esse projeto?
 Como usar setInterval para atualizar a hora dinamicamente
 
