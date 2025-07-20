@@ -13,12 +13,12 @@ jobs:
   build:
     runs-on: windows-latest
     permissions:
-      contents: read # This is required for actions/checkout
+      contents: read # Necessário para actions/checkout
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up .NET Core
+      - name: Setup .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
@@ -26,39 +26,32 @@ jobs:
       - name: Build with dotnet
         run: dotnet build ./QuizCarros/QuizCarros.csproj --configuration Release
 
-      - name: dotnet publish
-        run: dotnet publish ./QuizCarros/QuizCarros.csproj -c Release -o "${{env.DOTNET_ROOT}}/myapp"
+      - name: Publish with dotnet
+        run: dotnet publish ./QuizCarros/QuizCarros.csproj -c Release -o ./publish_output
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          name: dotnetapp
+          path: ./publish_output
 
   deploy:
     runs-on: windows-latest
     needs: build
     permissions:
-      id-token: write # This is required for requesting the JWT
-      contents: read  # This is required for actions/checkout
+      id-token: write # Necessário para solicitar o JWT
+      contents: read  # Necessário para actions/checkout
 
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: .net-app
+          name: dotnetapp
+          path: ./publish_output
 
       - name: Login to Azure
         uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FB288C789E7D4C1CA018EF97426755C3 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BF74A61C5F39407FBF1BDA9C293193D4 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_74B5B39D21C747E9B2CBABBA924ED15C }}
-
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'QuizCarros'
-          slot-name: 'Production'
-          package: ${{env.DOTNET_ROOT}}/myapp
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SU_
